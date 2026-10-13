@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" class="rf-nojs">
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Contact — Razor Construction</title><meta name="description" content="Get a quote from Razor for fit-outs, new builds, commercial and residential work." />
+<link rel="stylesheet" href="css/razorflow.css" /><script>document.documentElement.classList.remove('rf-nojs')</script>
+<style>.grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}@media(max-width:800px){.grid2{grid-template-columns:1fr}}form{border:1px solid var(--rf-line);border-radius:18px;padding:24px;background:#fff;display:grid;gap:12px}label{font-size:14px}input,select,textarea{width:100%;padding:12px 14px;border-radius:12px;border:1px solid var(--rf-line);font:inherit;background:#fbfcfd}details{border:1px solid var(--rf-line);border-radius:14px;padding:14px 16px;background:#fff;margin:10px 0}table{width:100%;border-collapse:collapse;background:#fff;border-radius:14px;overflow:hidden}td{padding:10px 14px;border-bottom:1px solid var(--rf-line);font-size:15px}</style>
+</head>
+<body>
+<div class="rf-preloader" data-rf-preloader aria-hidden="true"><div class="rf-preloader_inner"><div class="rf-preloader_mark">R</div><div>Razor — contact</div><div class="rf-preloader_bar" style="margin-top:14px"><span data-rf-preloader-bar></span></div></div></div>
+<header class="rf-nav" data-navigation-status="not-active"><div class="rf-nav_brand">Razor</div>
+<button class="rf-btn" data-navigation-toggle="toggle" aria-label="Menu"><span data-button-animate-chars>Menu</span><span class="rf-hamburger" aria-hidden="true"><i></i></span></button>
+<div class="rf-nav_tile"><ul class="rf-nav_links"><li><a href="index.html"><span data-button-animate-chars>Home</span></a></li><li><a href="services.html"><span data-button-animate-chars>Services</span></a></li><li><a href="about.html"><span data-button-animate-chars>About</span></a></li><li><a href="index.html#insights"><span data-button-animate-chars>Insights</span></a></li><li><a href="contact.html"><span data-button-animate-chars>Contact</span></a></li></ul></div></header>
+<div class="rf-cursor" data-cursor aria-hidden="true"><div class="rf-cursor_bubble"><span data-cursor-text-target>View</span></div></div>
+<main class="rf-wrap">
+<section class="rf-hero"><h1 class="rf-hero_h" data-split="heading">Get in</h1><h1 class="rf-hero_h" data-split="heading">contact</h1>
+<p class="rf-lede" data-animate="typo" style="margin-top:20px"><a class="rf-link" href="mailto:hello@razor.build"><span data-button-animate-chars>hello@razor.build [placeholder]</span></a> — send drawings, photos + postcode. We reply within 2 business days.</p></section>
+<section class="rf-section grid2">
+<form data-animate="typo" onsubmit="event.preventDefault();this.querySelector('[data-form-msg]').textContent='Thanks — placeholder form, wire this to email later.';">
+<label>Name<input required placeholder="Jane Doe" /></label>
+<label>Email<input required type="email" placeholder="jane@company.com" /></label>
+<label>Project type<select><option>Fit-out</option><option>New build / extension</option><option>Commercial</option><option>Residential</option><option>Other</option></select></label>
+<label>About your project<textarea rows="5" placeholder="Size, location, timeline…"></textarea></label>
+<button class="rf-btn" type="submit"><span data-button-animate-chars>Send enquiry</span> →</button>
+<p data-form-msg style="font-size:14px"></p>
+</form>
+<div><h2 class="rf-h2" data-animate="typo">Opening hours</h2>
+<table data-animate="typo"><tr><td>Monday — Friday</td><td>07:30 – 17:00 [placeholder]</td></tr><tr><td>Saturday</td><td>By appointment</td></tr><tr><td>Sunday</td><td>Closed</td></tr></table>
+<h2 class="rf-h2" style="margin-top:24px" data-animate="typo">FAQs</h2>
+<details data-animate="typo"><summary>Do you give fixed quotes?</summary><p>Yes — itemised, with programme. [Placeholder]</p></details>
+<details data-animate="typo"><summary>Do you work in occupied spaces?</summary><p>Yes — dust control, out-of-hours options, phased handover. [Placeholder]</p></details>
+<details data-animate="typo"><summary>Are you insured?</summary><p>[Add public liability / employer details when confirmed]</p></details>
+<details data-animate="typo"><summary>How fast can you start?</summary><p>Typically 2–4 weeks after survey, depending on scope. [Placeholder]</p></details>
+<details data-animate="typo"><summary>Do you handle permits?</summary><p>We liaise with building control / management companies. [Placeholder]</p></details>
+</div>
+</section>
+<footer class="rf-footer"><div data-fit-width class="rf-footer_big">Razor</div><p><a class="rf-link" href="index.html"><span data-button-animate-chars>Home</span></a> • <a class="rf-link" href="services.html"><span data-button-animate-chars>Services</span></a> • <a class="rf-link" href="about.html"><span data-button-animate-chars>About</span></a> • <span data-current-year>2026</span></p></footer>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.2.3/dist/lenis.min.js"></script>
+<script>gsap.registerPlugin(ScrollTrigger)</script><script src="js/razorflow.js"></script>
+</body></html>
